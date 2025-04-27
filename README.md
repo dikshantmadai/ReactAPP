@@ -22,8 +22,8 @@ Ensure the following tools are installed on your system:
 
 1. Visit [MongoDB Atlas](https://cloud.mongodb.com/)
 2. Log in using:
-   - **Email**: `madaigd01@gmail.com`
-   - **Password**: `Dikshant@123G`
+   - **Email**: `
+   - **Password**: 
 
 > ⚠️ **Security Tip:** Do not expose database credentials in public repositories. Use `.env` files to store sensitive data securely.
 
@@ -40,3 +40,16 @@ npm install
 
 # Start the React development server
 npm start
+
+
+## ⚙️ Backend Setup (Node.js / Express)
+
+```bash
+# Navigate to the backend directory
+cd backend
+
+# Install backend dependencies
+npm install
+
+# Start the backend development server
+npm run dev
