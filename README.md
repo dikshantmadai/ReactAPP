@@ -29,7 +29,7 @@ Ensure the following tools are installed on your system:
 
 ---
 
-## 🖥️ Frontend Setup (React)
+## 🖥️ Frontend Setup (React) and Backend 
 
 ```bash
 # Navigate to the frontend directory
