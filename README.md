@@ -44,7 +44,7 @@ npm start
 
 ## ⚙️ Backend Setup (Node.js / Express)
 
-```bash
+
 # Navigate to the backend directory
 cd backend
 
