@@ -1,9 +1,9 @@
 # HAPI FHIR JPA Server Setup
 
-## Prerequisites
+# Prerequisites
 Ensure that Docker is installed on your machine before proceeding.
 
-## Pull the HAPI FHIR JPA Server Image
+# Pull the HAPI FHIR JPA Server Image
 
 To pull the latest version of the HAPI FHIR JPA Server image, run the following command:
 
