@@ -6,7 +6,7 @@ import PatientDetail from './components/PatientDetail';
 import CreatePatient from './components/CreatePatient';
 import Register from './components/signup';
 import Login from './components/login';
-
+import HealthFacilitiesChart from './components/HealthFacilitiesChart';  // Import the chart component
 
 function App() {
   return (
@@ -30,6 +30,7 @@ function App() {
                 <Route path="/Homepage" element={<Homepage />} />
                 <Route path="/patient/:id" element={<PatientDetail />} />
                 <Route path="/create-patient" element={<CreatePatient />} />
+                <Route path="/health-facilities-chart" element={<HealthFacilitiesChart />} /> {/* New route for chart */}
                 {/* Redirect any unknown paths to /patients */}
                 <Route path="*" element={<Navigate to="/patients" replace />} />
               </Routes>

@@ -4,6 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import HomeIcon from '@mui/icons-material/Home';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
+import EqualizerIcon from '@mui/icons-material/Equalizer';  // Import the EqualizerIcon
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -78,6 +79,20 @@ const Navbar = () => {
               <HomeIcon />
             </ListItemIcon>
             <ListItemText primary="Homepage" />
+          </ListItem>
+
+          {/* Health Facilities Chart Link */}
+          <ListItem 
+            button 
+            key="Data Visualization" 
+            component={Link} 
+            to="/health-facilities-chart"
+            onClick={toggleDrawer(false)}
+          >
+            <ListItemIcon>
+              <EqualizerIcon />  {/* Icon for the Health Facilities Chart */}
+            </ListItemIcon>
+            <ListItemText primary="Data Visualization" />
           </ListItem>
         </List>
       </Drawer>
