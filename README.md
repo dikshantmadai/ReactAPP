@@ -1,15 +1,14 @@
 # HAPI FHIR JPA Server Setup
 
-# Prerequisites
+## Prerequisites
 Ensure that Docker is installed on your machine before proceeding.
 
-# Pull the HAPI FHIR JPA Server Image
+## Pull the HAPI FHIR JPA Server Image
 
-To pull the latest version of the HAPI FHIR JPA Server image, run the following command:
-
-```bash
 docker pull hapiproject/hapi:latest
 
+### Run the server:
+docker run -d -p 8080:8080 --name hapi-fhir-server hapiproject/hapi:latest
 
 # 🏥 EMR App
 
@@ -42,9 +41,9 @@ Ensure the following tools are installed on your system:
 
 ---
 
-## 🖥️ Frontend Setup (React) and Backend 
+## 🖥️ Frontend Setup (React) and Backend
 
-```bash
+bash
 # Navigate to the frontend directory
 cd emr-app
 
